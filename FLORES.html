@@ -7,9 +7,31 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="img/flowers.png" type="image/x-icon">
     <title>FLORES</title>
+    <style>
+      .greetings {
+          position: absolute;
+          top: 20px;
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+          z-index: 9999; /* Asegura que el texto esté por encima de las flores */
+          width: 100%;
+      }
+
+      .greetings h1 {
+          font-size: 24px;
+          color: #ffffff;
+          background-color: rgba(0, 0, 0, 0.5);
+          padding: 10px 20px;
+          border-radius: 10px;
+      }
+  </style>
 </head>
 
 <body class="container">
+      <div class="greetings">
+    <h1>Feliz San Valentín mi Hadita 🧚❤️!!</h1>
+    </div>
     <div class="night"></div>
     <div class="flowers">
       <div class="flower flower--1">
